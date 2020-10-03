@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 100%;
   height: 80vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background: #f5f8fd url("../img/bg10.jpg") center top no-repeat;
   background-size: cover;
 }
 
@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .intro-info h2 {
-  color: #413e66;
+  color: #fff;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -1220,6 +1220,7 @@ section {
 
 .testimonials .testimonial-wrap {
   padding-left: 50px;
+  background-color: #f3f3f3;
 }
 
 .testimonials .testimonial-item {
@@ -1272,7 +1273,7 @@ section {
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
+  font-weight: bold;
   margin: 15px auto 15px auto;
 }
 
@@ -1317,10 +1318,10 @@ section {
 }
 
 #clients img {
-  max-width: 80%;
+  max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
-  padding: 15px 0;
+  padding: 15px 10px;
 }
 
 #clients img:hover {
