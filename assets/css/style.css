@@ -385,6 +385,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     text-align: center;
     padding-top: 40px;
   }
+  .small{
+    display:inline-block;
+  }
 }
 
 #hero .intro-info h2 {
