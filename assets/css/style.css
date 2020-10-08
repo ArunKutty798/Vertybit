@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap');
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -413,7 +416,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
+  background: #1c5c93;
   color: #fff;
 }
 
@@ -1313,37 +1316,37 @@ section {
 
 /* Clients Section
 --------------------------------*/
-#clients {
-  padding: 60px 0;
+.clients .clients-wrap {
+  border-top: 1px solid #eceff0;
+  border-left: 1px solid #eceff0;
 }
 
-#clients img {
+.clients .client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #eceff0;
+  border-bottom: 1px solid #eceff0;
+  overflow: hidden;
+  background: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.clients .client-logo img {
   max-width: 100%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 10px;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
 }
 
-#clients img:hover {
-  opacity: 1;
+.clients .client-logo:hover img {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.1);
 }
 
-#clients .owl-nav, #clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-#clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#clients .owl-dot.active {
-  background-color: #1bb1dc;
+.clients img {
+  transition: all 0.4s ease-in-out;
 }
 
 
