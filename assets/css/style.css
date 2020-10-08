@@ -118,26 +118,35 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 26px;
   margin: 0;
   padding: 10px 0;
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
+  display:inline-block;
+
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #1c5c93;
   text-decoration: none;
+  
 }
 
 #header .logo img {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  display:inline-block;
+  
 }
-
+@media screen and (max-width:400px){
+  #header .logo img{
+    display:none;
+  }
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -265,7 +274,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 0;
   list-style: none;
 }
-
+.mobile-nav h1{
+  display:inline-block;
+}
+.mobile-nav img{
+  display:inline-block;
+}
 .mobile-nav a {
   display: block;
   position: relative;
@@ -385,9 +399,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     text-align: center;
     padding-top: 40px;
   }
-  .small{
-    display:inline-block;
-  }
+  
 }
 
 #hero .intro-info h2 {
