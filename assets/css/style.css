@@ -1067,6 +1067,8 @@ section {
   transition: 0.3s;
 }
 
+
+
 .portfolio .portfolio-wrap .portfolio-info {
   display: flex;
   justify-content: center;
@@ -1082,6 +1084,7 @@ section {
   text-align: center;
   background: rgba(31, 53, 72, 0.6);
   padding-bottom: 30px;
+  
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -1551,7 +1554,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  
   color: #fff;
 }
 
